@@ -1,0 +1,55 @@
+.emblem {
+  width: 4rem;
+  margin-right: 0.5rem;
+}
+
+.landingPage-heading-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 3rem;
+}
+.landingPage-heading-div img {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.landingPage-btn,
+.update-btn {
+  padding: 1rem 6rem;
+  margin-top: 6rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  outline: none !important;
+  border: none !important;
+  background-color: rgb(106, 44, 83);
+  color: rgb(221, 185, 185);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.welcome-p {
+  margin-top: 8rem;
+  font-size: 2.2rem;
+  width: 60%;
+}
+
+/* small devices */
+@media screen and (max-width: 400px) {
+  .landingPage-mainDiv {
+    padding: 0 2rem;
+  }
+
+  .welcome-p {
+    width: 86%;
+  }
+
+  .landingPage-btn {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+  }
+
+  html {
+    font-size: 80%;
+  }
+}

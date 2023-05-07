@@ -1,0 +1,8 @@
+.RegisterProp-maindiv{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.RegisterProp-maindiv .form-control{
+    width: 60%;
+}
